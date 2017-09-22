@@ -68,7 +68,7 @@ ui <- fluidPage(
    # Sidebar with a slider input for number of bins 
    sidebarLayout(
      sidebarPanel(
-       textInput("hash", "Hashtag (No #): ", value = "MAGA"),
+       textInput("hash", "Hashtag (No #): ", value = ""),
        numericInput("num", "Desired Size of Dataset: ", value = 10, min = 3, max = 500),
        actionButton("runButton","RUN"),
        downloadLink("downloadData", "Download CSV")
