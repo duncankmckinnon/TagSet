@@ -2,5 +2,10 @@
 .Rhistory
 .RData
 .Ruserdata
+<<<<<<< HEAD
 MyTwitterCred.R
 rsconnect
+=======
+
+MyTwitterCred.R
+>>>>>>> 1f0b33cc0efc27fae128dcc950af60f2342c3cfb
