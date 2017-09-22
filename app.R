@@ -16,7 +16,11 @@ run_all<-function(HasRun = F)
       }
     )
     
-    #TWITTER APP DATA
+#TWITTER APP DATA
+#    MYCONSUMERKEY<- #Your Consumer Key
+#    MYCONSUMERSECRET<- #Your Consumer Secret
+#    MYACCESSTOKEN<- #Your Access Token
+#    MYACCESSSECRET<-  #Your Access Secret
     
     origop <- options("httr_oauth_cache")
     options(httr_oauth_cache=TRUE)
